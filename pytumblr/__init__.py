@@ -478,7 +478,7 @@ class TumblrRestClient(object):
         elif post_type == 'quote':
             valid += ['quote', 'source']
         elif post_type == 'link':
-            valid += ['title', 'url', 'description']
+            valid += ['title', 'url', 'description', 'excerpt']
         elif post_type == 'chat':
             valid += ['title', 'conversation']
         elif post_type == 'audio':
